@@ -1,0 +1,250 @@
+.titolo {
+    background-color: rgb(56, 135, 121);
+    margin-right: 10px; /* Aggiunge margine destro all'elemento */
+    border-radius: 10px; /* Rende i bordi arrotondati */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Aggiunge un'ombra più sfumata */
+}
+
+.ctvenosa{
+    background-color: rgb(56, 135, 121);
+    margin-right: 10px;
+    padding: 25px;
+    display: flex; /* Utilizza un layout flessibile per i suoi figli */
+    align-items: center; /* Allinea i figli verticalmente al centro */
+}
+
+header {
+    background-color: rgb(56, 135, 121);
+    padding: 10px ; /* Spazio sopra e sotto all'intestazione */
+}
+
+#htitle {
+
+    margin-right: 15%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ebedfa; /* Colore del testo */
+    font-size: 24px; /* Dimensione del testo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
+
+.logo img {
+    height: 50px; /* Imposta l'altezza del logo */
+    margin-right: 25%; /* Aggiunge margine destro all'immagine */
+}
+
+
+.lista{
+    background-color: rgb(56, 135, 121);
+    padding: 25px;
+    
+}
+
+#logoct {
+    border-radius: 50%; /* Rende l'immagine circolare */
+    height: 100px;
+    width: 100px;
+    margin-right: 10px; /* Aggiunge margine destro all'immagine */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Aggiunge un'ombra sfumata */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribuisce gli elementi uniformemente lungo la riga */
+    align-items: center; /* Centra verticalmente gli elementi */
+    padding: 0 20px; /* Spazio laterale della navbar */
+}
+
+.menu ul {
+    list-style-type: none; /* Rimuove i punti elenco */
+    margin: 0; /* Rimuove il margine */
+    padding: 0; /* Rimuove il padding */
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 15px; /* Spazio tra ciascuna voce di menu */
+    color: #ebedfa; /* Colore del testo */
+
+}
+
+
+
+.loghicomuni {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px; /* Aggiungi spazio tra l'icona e il testo */
+}
+
+
+
+#social{
+    width: 50px;
+    height: 25px;
+    margin-right: 7px;
+
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 135, 121);
+
+}
+
+body{
+    font-family: 'Lucida Sans';
+    color: #ebedfa; /* Colore del testo */
+
+}
+
+
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 20;
+    
+
+}
+
+
+
+
+.image-wrapper{
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.images-wrapper{
+    width: 95px;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 135, 121);
+}
+
+.section-three {
+    display: flex;
+    align-items: center; /* Allinea gli elementi al centro lungo l'asse trasversale */
+    background-color: rgb(56, 135, 121);
+}
+
+#log{
+    width: 250px;
+    border-radius: 15%;
+}
+
+.section-three .paragrafo h1{
+    font-size: 35px;
+    font-family: 'Trebuchet MS';
+    color: #ebedfa; /* Colore del testo */
+    font-style: oblique;
+}
+
+.section-three .paragrafo p{
+    font-size: 14px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn{
+    display: flex;
+}
+
+.button{
+    background-color: #4CAF50; /* Colore di sfondo */
+    border: none; /* Rimuove il bordo predefinito */
+    border-radius: 5px; /* Bordi arrotondati */
+    color: white; /* Colore del testo */
+    padding: 10px 20px; /* Spaziatura interna */
+    text-align: center; /* Allineamento del testo */
+    text-decoration: none; /* Rimuove il sottolineato predefinito */
+    display: inline-block; /* Mostra come blocco inline */
+    font-size: 16px; /* Dimensione del testo */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: background-color 0.3s ease; /* Effetto di transizione */
+}
+
+.button:hover{
+    background-color: #45a049; /* Cambia il colore di sfondo al passaggio del mouse */
+}
+
+#istruttori{
+
+    height: 95px;
+    width: 95px;
+   
+}
+
+#attrezza{
+    height: 95px;
+    width: 125px;
+}
+
+.section-four {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: rgb(56, 135, 121);
+
+}
+
+.section-four .text-right-img{
+
+    flex-direction: column; /* Imposta il layout dei figli in colonna */
+}
+
+
+.image-tennis-matches {
+    flex: 1;
+    text-align: center;
+}
+
+.image-section-four {
+    width: 100%;
+    height: auto;
+}
+
+.text-right-img {
+    flex: 1;
+    text-align: center;
+}
+
+.text-right-img h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Trebuchet MS';
+    color: #ebedfa; /* Colore del testo */
+    font-style: oblique;
+}
+
+.btn-two{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.cazzo #we{
+
+    height: 295px;
+    width: 250px;
+    align-items: center;
+}
+
+.paragrafo h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
