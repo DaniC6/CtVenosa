@@ -14,19 +14,22 @@
 }
 
 header {
-    background-color: rgb(56, 135, 121);
+    background-color: rgb(27, 91, 79);
     padding: 10px ; /* Spazio sopra e sotto all'intestazione */
 }
 
 #htitle {
 
-    margin-right: 15%;
-    font-family: 'Courier New', Courier, monospace;
-    color: #ebedfa; /* Colore del testo */
-    font-size: 24px; /* Dimensione del testo */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    
+    margin-right: 2%;
+    font-family: 'PT Sans'; /* Utilizzo del font Pacifico */
+    font-size: 25px; /* Dimensione del carattere più grande */
+    color: #d4d3a5; /* Colore del testo scuro */
+    text-transform: uppercase; /* Maiuscolo */
+    letter-spacing: 2px; /* Spaziatura tra le lettere */
+    text-shadow: 2px 2px 4px rgba(105, 100, 7, 0.3); /* Ombra */
 }
+    
+
 
 .logo img {
     height: 50px; /* Imposta l'altezza del logo */
@@ -65,7 +68,7 @@ header {
 
 .menu ul li {
     margin-right: 15px; /* Spazio tra ciascuna voce di menu */
-    color: #ebedfa; /* Colore del testo */
+    color: #dedd91; /* Colore del testo scuro */
 
 }
 
@@ -96,7 +99,7 @@ header {
 
 body{
     font-family: 'Lucida Sans';
-    color: #ebedfa; /* Colore del testo */
+    color: #d4d3a5; /* Colore del testo scuro */
 
 }
 
@@ -133,6 +136,7 @@ h3{
     display: flex;
     align-items: center; /* Allinea gli elementi al centro lungo l'asse trasversale */
     background-color: rgb(56, 135, 121);
+    
 }
 
 #log{
@@ -143,7 +147,7 @@ h3{
 .section-three .paragrafo h1{
     font-size: 35px;
     font-family: 'Trebuchet MS';
-    color: #ebedfa; /* Colore del testo */
+    color: #d4d3a5; /* Colore del testo scuro */
     font-style: oblique;
 }
 
@@ -161,7 +165,7 @@ h3{
     background-color: #4CAF50; /* Colore di sfondo */
     border: none; /* Rimuove il bordo predefinito */
     border-radius: 5px; /* Bordi arrotondati */
-    color: white; /* Colore del testo */
+    color: #d4d3a5; /* Colore del testo scuro */
     padding: 10px 20px; /* Spaziatura interna */
     text-align: center; /* Allineamento del testo */
     text-decoration: none; /* Rimuove il sottolineato predefinito */
@@ -221,7 +225,7 @@ h3{
     text-align: center;
     font-size: 35px;
     font-family: 'Trebuchet MS';
-    color: #ebedfa; /* Colore del testo */
+    color: #d4d3a5; /* Colore del testo scuro */
     font-style: oblique;
 }
 
@@ -244,6 +248,8 @@ h3{
 
 #istruttori{
     margin-left: 25px;
+
+
 }
 
 #ist{
@@ -279,7 +285,7 @@ a:hover {
 
 footer {
     background-color: #333; /* Colore di sfondo del footer */
-    color: #fff; /* Colore del testo */
+    color: #d4d3a5; /* Colore del testo scuro */
     padding: 20px; /* Spazio interno */
     text-align: center; /* Allineamento del testo al centro */
 }
@@ -304,3 +310,54 @@ footer {
   .mae{
     width:65%;
   }
+
+  #duno{
+    display: flexbox;
+    background-color: rgb(19, 111, 111);
+    
+  }
+
+  .playerduno {
+    margin-right: 25%;
+  }
+
+  .playerduno ul{
+
+    list-style-type: none; /* Rimuove i punti elenco */
+ }
+
+ .section-button button {
+    background-color: #0e9087; /* Colore di sfondo */
+    color: #333; /* Colore del testo */
+    font-size: 20px; /* Dimensione del testo */
+    padding: 25px 50px; /* Spaziatura interna */
+    border-radius: 25px; /* Bordi arrotondati */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+    text-decoration: none; /* Rimuove la sottolineatura del testo */
+    display: inline-block; /* Mostra il bottone come blocco */
+    transition: background-color 0.3s ease; /* Transizione fluida del colore di sfondo */
+}
+
+.section-button button:hover {
+    background-color: #48a897; /* Cambia colore di sfondo al passaggio del mouse */
+}
+    
+    
+.container {
+    display: flex; /* Utilizza il layout flexbox per posizionare gli elementi in linea */
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    background-color: #106968;
+    cursor: pointer; /* Cambia il cursore al passaggio */
+
+    transition: background-color 0.3s ease;
+}
+
+.section-button,
+.image-tennis-matches {
+    flex: 1; /* Distribuisci lo spazio disponibile in modo equo tra i due elementi */
+}
+
+#competizionii{
+    background-color: #c9cd84a7;
+}
+
