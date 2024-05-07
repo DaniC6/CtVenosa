@@ -21,7 +21,7 @@ header {
 #htitle {
 
     margin-right: 15%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: #ebedfa; /* Colore del testo */
     font-size: 24px; /* Dimensione del testo */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -268,8 +268,39 @@ h3{
     
 }
 
+a {
+    text-decoration: none; /* Rimuove il sottolineato */
+    color: inherit; /* Utilizza il colore del testo predefinito */
+}
 
+a:hover {
+    text-decoration: none; /* Rimuove il sottolineato al passaggio del mouse */
+}
 
+footer {
+    background-color: #333; /* Colore di sfondo del footer */
+    color: #fff; /* Colore del testo */
+    padding: 20px; /* Spazio interno */
+    text-align: center; /* Allineamento del testo al centro */
+}
 
+.footer-content {
+    max-width: 1200px; /* Larghezza massima del contenuto */
+    margin: 0 auto; /* Centra il contenuto */
+}
 
+.maestro {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Due colonne con larghezza uguale */
+    grid-gap: 10px; /* Aggiunge spaziatura tra le colonne */
+    background-color: rgb(56, 135, 121);
 
+  }
+  
+  .left-div, .right-div {
+    padding: 10px; /* Aggiunge spaziatura interna */
+  }
+
+  .mae{
+    width:65%;
+  }
