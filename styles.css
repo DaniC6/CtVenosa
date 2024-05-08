@@ -1,74 +1,100 @@
 .titolo {
     background-color: rgb(56, 135, 121);
-    margin-right: 10px; /* Aggiunge margine destro all'elemento */
-    border-radius: 10px; /* Rende i bordi arrotondati */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Aggiunge un'ombra più sfumata */
+    margin-right: 10px;
+    /* Aggiunge margine destro all'elemento */
+    border-radius: 10px;
+    /* Rende i bordi arrotondati */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Aggiunge un'ombra più sfumata */
 }
 
-.ctvenosa{
+.ctvenosa {
     background-color: rgb(56, 135, 121);
     margin-right: 10px;
     padding: 25px;
-    display: flex; /* Utilizza un layout flessibile per i suoi figli */
-    align-items: center; /* Allinea i figli verticalmente al centro */
+    display: flex;
+    /* Utilizza un layout flessibile per i suoi figli */
+    align-items: center;
+    /* Allinea i figli verticalmente al centro */
 }
 
 header {
-    background-color: rgb(27, 91, 79);
-    padding: 10px ; /* Spazio sopra e sotto all'intestazione */
+    background-color: rgb(45, 115, 125);
+    padding: 10px;
+    /* Spazio sopra e sotto all'intestazione */
 }
 
 #htitle {
 
     margin-right: 2%;
-    font-family: 'PT Sans'; /* Utilizzo del font Pacifico */
-    font-size: 25px; /* Dimensione del carattere più grande */
-    color: #d4d3a5; /* Colore del testo scuro */
-    text-transform: uppercase; /* Maiuscolo */
-    letter-spacing: 2px; /* Spaziatura tra le lettere */
-    text-shadow: 2px 2px 4px rgba(105, 100, 7, 0.3); /* Ombra */
+    font-family: 'PT Sans';
+    /* Utilizzo del font Pacifico */
+    font-size: 25px;
+    /* Dimensione del carattere più grande */
+    color: #d4d3a5;
+    /* Colore del testo scuro */
+    text-transform: uppercase;
+    /* Maiuscolo */
+    letter-spacing: 2px;
+    /* Spaziatura tra le lettere */
+    text-shadow: 2px 2px 4px rgba(105, 100, 7, 0.3);
+    /* Ombra */
 }
-    
+
 
 
 .logo img {
-    height: 50px; /* Imposta l'altezza del logo */
-    margin-right: 25%; /* Aggiunge margine destro all'immagine */
+    height: 50px;
+    /* Imposta l'altezza del logo */
+    margin-right: 25%;
+    /* Aggiunge margine destro all'immagine */
 }
 
 
-.lista{
+.lista {
     background-color: rgb(56, 135, 121);
     padding: 25px;
-    
+
 }
 
 #logoct {
-    border-radius: 50%; /* Rende l'immagine circolare */
+    border-radius: 50%;
+    /* Rende l'immagine circolare */
     height: 100px;
     width: 100px;
-    margin-right: 10px; /* Aggiunge margine destro all'immagine */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Aggiunge un'ombra sfumata */
+    margin-left: 50px;
+    /* Aggiunge margine destro all'immagine */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Aggiunge un'ombra sfumata */
 }
 
 
 .navbar {
     display: flex;
-    justify-content: space-between; /* Distribuisce gli elementi uniformemente lungo la riga */
-    align-items: center; /* Centra verticalmente gli elementi */
-    padding: 0 20px; /* Spazio laterale della navbar */
+    justify-content: space-between;
+    /* Distribuisce gli elementi uniformemente lungo la riga */
+    align-items: center;
+    /* Centra verticalmente gli elementi */
+    padding: 0 20px;
+    /* Spazio laterale della navbar */
 }
 
 .menu ul {
-    list-style-type: none; /* Rimuove i punti elenco */
-    margin: 0; /* Rimuove il margine */
-    padding: 0; /* Rimuove il padding */
+    list-style-type: none;
+    /* Rimuove i punti elenco */
+    margin: 0;
+    /* Rimuove il margine */
+    padding: 0;
+    /* Rimuove il padding */
     display: flex;
+    margin-right: 105px;
 }
 
 .menu ul li {
-    margin-right: 15px; /* Spazio tra ciascuna voce di menu */
-    color: #dedd91; /* Colore del testo scuro */
+    margin-right: 15px;
+    /* Spazio tra ciascuna voce di menu */
+    color: #dedd91;
+    /* Colore del testo scuro */
 
 }
 
@@ -77,12 +103,13 @@ header {
 .loghicomuni {
     width: 25px;
     height: 25px;
-    margin-right: 5px; /* Aggiungi spazio tra l'icona e il testo */
+    margin-right: 5px;
+    /* Aggiungi spazio tra l'icona e il testo */
 }
 
 
 
-#social{
+#social {
     width: 50px;
     height: 25px;
     margin-right: 7px;
@@ -90,43 +117,44 @@ header {
 }
 
 
-.section{
+.section {
     display: flex;
     justify-content: space-around;
     background-color: rgb(56, 135, 121);
 
 }
 
-body{
+body {
     font-family: 'Lucida Sans';
-    color: #d4d3a5; /* Colore del testo scuro */
+    color: #d4d3a5;
+    /* Colore del testo scuro */
 
 }
 
 
-h3{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     font-weight: 20;
-    
+
 
 }
 
 
 
 
-.image-wrapper{
+.image-wrapper {
     flex: 1;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.images-wrapper{
+.images-wrapper {
     width: 95px;
 }
 
-.section-two{
+.section-two {
     display: flex;
     justify-content: space-around;
     background-color: rgb(56, 135, 121);
@@ -134,59 +162,73 @@ h3{
 
 .section-three {
     display: flex;
-    align-items: center; /* Allinea gli elementi al centro lungo l'asse trasversale */
+    align-items: center;
+    /* Allinea gli elementi al centro lungo l'asse trasversale */
     background-color: rgb(56, 135, 121);
-    
+
 }
 
-#log{
+#log {
     width: 250px;
     border-radius: 15%;
 }
 
-.section-three .paragrafo h1{
+.section-three .paragrafo h1 {
     font-size: 35px;
     font-family: 'Trebuchet MS';
-    color: #d4d3a5; /* Colore del testo scuro */
+    color: #d4d3a5;
+    /* Colore del testo scuro */
     font-style: oblique;
 }
 
-.section-three .paragrafo p{
+.section-three .paragrafo p {
     font-size: 14px;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.btn{
+.btn {
     display: flex;
 }
 
-.button{
-    background-color: #4CAF50; /* Colore di sfondo */
-    border: none; /* Rimuove il bordo predefinito */
-    border-radius: 5px; /* Bordi arrotondati */
-    color: #d4d3a5; /* Colore del testo scuro */
-    padding: 10px 20px; /* Spaziatura interna */
-    text-align: center; /* Allineamento del testo */
-    text-decoration: none; /* Rimuove il sottolineato predefinito */
-    display: inline-block; /* Mostra come blocco inline */
-    font-size: 16px; /* Dimensione del testo */
-    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
-    transition: background-color 0.3s ease; /* Effetto di transizione */
+.button {
+    background-color: #4CAF50;
+    /* Colore di sfondo */
+    border: none;
+    /* Rimuove il bordo predefinito */
+    border-radius: 5px;
+    /* Bordi arrotondati */
+    color: #d4d3a5;
+    /* Colore del testo scuro */
+    padding: 10px 20px;
+    /* Spaziatura interna */
+    text-align: center;
+    /* Allineamento del testo */
+    text-decoration: none;
+    /* Rimuove il sottolineato predefinito */
+    display: inline-block;
+    /* Mostra come blocco inline */
+    font-size: 16px;
+    /* Dimensione del testo */
+    cursor: pointer;
+    /* Cambia il cursore al passaggio del mouse */
+    transition: background-color 0.3s ease;
+    /* Effetto di transizione */
 }
 
-.button:hover{
-    background-color: #45a049; /* Cambia il colore di sfondo al passaggio del mouse */
+.button:hover {
+    background-color: #45a049;
+    /* Cambia il colore di sfondo al passaggio del mouse */
 }
 
-#istruttori{
+#istruttori {
 
     height: 95px;
     width: 95px;
-   
+
 }
 
-#attrezza{
+#attrezza {
     height: 95px;
     width: 125px;
 }
@@ -200,9 +242,10 @@ h3{
 
 }
 
-.section-four .text-right-img{
+.section-four .text-right-img {
 
-    flex-direction: column; /* Imposta il layout dei figli in colonna */
+    flex-direction: column;
+    /* Imposta il layout dei figli in colonna */
 }
 
 
@@ -225,139 +268,247 @@ h3{
     text-align: center;
     font-size: 35px;
     font-family: 'Trebuchet MS';
-    color: #d4d3a5; /* Colore del testo scuro */
+    color: #d4d3a5;
+    /* Colore del testo scuro */
     font-style: oblique;
 }
 
-.btn-two{
+.btn-two {
     display: flex;
     margin-top: 10px;
     margin-right: 100px;
 }
 
-.cazzo #we{
+.cazzo #we {
 
     height: 295px;
     width: 250px;
     align-items: center;
 }
 
-.paragrafo h1{
+.paragrafo h1 {
     text-align: center;
 }
 
-#istruttori{
+#istruttori {
     margin-left: 25px;
 
 
 }
 
-#ist{
+#ist {
 
     margin-left: 22px;
 }
 
-#competizioni{
+#competizioni {
     margin-left: 25px;
 
 }
 
-#attrezza{
+#attrezza {
     margin-left: 25px;
 
 }
 
-.image-section-five{
+.image-section-five {
     width: 415px;
     height: 285px;
     max-width: 100%;
-    
+
 }
 
 a {
-    text-decoration: none; /* Rimuove il sottolineato */
-    color: inherit; /* Utilizza il colore del testo predefinito */
+    text-decoration: none;
+    /* Rimuove il sottolineato */
+    color: inherit;
+    /* Utilizza il colore del testo predefinito */
 }
 
 a:hover {
-    text-decoration: none; /* Rimuove il sottolineato al passaggio del mouse */
+    text-decoration: none;
+    /* Rimuove il sottolineato al passaggio del mouse */
 }
 
 footer {
-    background-color: #333; /* Colore di sfondo del footer */
-    color: #d4d3a5; /* Colore del testo scuro */
-    padding: 20px; /* Spazio interno */
-    text-align: center; /* Allineamento del testo al centro */
+    background-color: #333;
+    /* Colore di sfondo del footer */
+    color: #d4d3a5;
+    /* Colore del testo scuro */
+    padding: 20px;
+    /* Spazio interno */
+    text-align: center;
+    /* Allineamento del testo al centro */
 }
 
 .footer-content {
-    max-width: 1200px; /* Larghezza massima del contenuto */
-    margin: 0 auto; /* Centra il contenuto */
+    max-width: 1200px;
+    /* Larghezza massima del contenuto */
+    margin: 0 auto;
+    /* Centra il contenuto */
 }
 
 .maestro {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Due colonne con larghezza uguale */
-    grid-gap: 10px; /* Aggiunge spaziatura tra le colonne */
+    grid-template-columns: 1fr 1fr;
+    /* Due colonne con larghezza uguale */
+    grid-gap: 10px;
+    /* Aggiunge spaziatura tra le colonne */
     background-color: rgb(56, 135, 121);
 
-  }
-  
-  .left-div, .right-div {
-    padding: 10px; /* Aggiunge spaziatura interna */
-  }
+}
 
-  .mae{
-    width:65%;
-  }
+.left-div,
+.right-div {
+    padding: 10px;
+    /* Aggiunge spaziatura interna */
+}
 
-  #duno{
+.mae {
+    width: 65%;
+}
+
+#duno {
     display: flexbox;
-    background-color: rgb(19, 111, 111);
-    
-  }
+    background-color: rgb(25, 124, 124);
 
-  .playerduno {
+}
+
+.playerduno {
     margin-right: 25%;
-  }
+}
 
-  .playerduno ul{
+.playerduno ul {
 
-    list-style-type: none; /* Rimuove i punti elenco */
- }
+    list-style-type: none;
+    /* Rimuove i punti elenco */
+}
 
- .section-button button {
-    background-color: #0e9087; /* Colore di sfondo */
-    color: #333; /* Colore del testo */
-    font-size: 20px; /* Dimensione del testo */
-    padding: 25px 50px; /* Spaziatura interna */
-    border-radius: 25px; /* Bordi arrotondati */
-    cursor: pointer; /* Cambia il cursore al passaggio */
-    text-decoration: none; /* Rimuove la sottolineatura del testo */
-    display: inline-block; /* Mostra il bottone come blocco */
-    transition: background-color 0.3s ease; /* Transizione fluida del colore di sfondo */
+.section-button button {
+    background-color: #0e9087;
+    /* Colore di sfondo */
+    color: #333;
+    /* Colore del testo */
+    font-size: 20px;
+    /* Dimensione del testo */
+    padding: 25px 50px;
+    /* Spaziatura interna */
+    border-radius: 25px;
+    /* Bordi arrotondati */
+    cursor: pointer;
+    /* Cambia il cursore al passaggio */
+    text-decoration: none;
+    /* Rimuove la sottolineatura del testo */
+    display: inline-block;
+    /* Mostra il bottone come blocco */
+    transition: background-color 0.3s ease;
+    /* Transizione fluida del colore di sfondo */
 }
 
 .section-button button:hover {
-    background-color: #48a897; /* Cambia colore di sfondo al passaggio del mouse */
+    background-color: #48a897;
+    /* Cambia colore di sfondo al passaggio del mouse */
 }
-    
-    
+
+
 .container {
-    display: flex; /* Utilizza il layout flexbox per posizionare gli elementi in linea */
-    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    display: flex;
+    /* Utilizza il layout flexbox per posizionare gli elementi in linea */
+    align-items: center;
+    /* Allinea verticalmente gli elementi al centro */
     background-color: #106968;
-    cursor: pointer; /* Cambia il cursore al passaggio */
+    cursor: pointer;
+    /* Cambia il cursore al passaggio */
 
     transition: background-color 0.3s ease;
 }
 
 .section-button,
 .image-tennis-matches {
-    flex: 1; /* Distribuisci lo spazio disponibile in modo equo tra i due elementi */
+    flex: 1;
+    /* Distribuisci lo spazio disponibile in modo equo tra i due elementi */
 }
 
-#competizionii{
+#competizionii {
     background-color: #c9cd84a7;
 }
 
+.article {
+    background-color: #106968;
+}
+
+#squadra {
+    width: 500px;
+    height: 350px;
+    margin-left: 325px;
+
+}
+
+.mae {
+    width: 280px;
+    height: 299px;
+}
+
+.ct {
+    background-color: #27818d8e;
+    background-image: linear-gradient(to right, #14545b, transparent);
+    border-radius: 5%;
+    box-shadow: 0 0 20px rgba(23, 20, 20, 0.1);
+    /* Aggiungi un'ombra leggera intorno ai bordi */
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Stili di base per il form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 185%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+    /* Altezza fissa per il campo di testo */
+}
+
+button[type="submit"] {
+    background-color: #229d41;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0e6b49;
+}
+
+.form {
+    margin-left: 25px;
+}
+
+.conta {
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgtel {
+    margin-right: 450px;
+}
+
+.imgtel #em {
+    width: 65px;
+}
