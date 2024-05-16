@@ -1,3 +1,6 @@
+
+
+
 .titolo {
     background-color: rgb(56, 135, 121);
     margin-right: 10px;
@@ -78,6 +81,22 @@ header {
     padding: 0 20px;
     /* Spazio laterale della navbar */
 }
+
+.navbar p {
+    display: block;
+    margin-top: 10px; /* Aggiunge un margine superiore tra i paragrafi */
+}
+
+.links {
+    display: flex; /* Applica flexbox ai paragrafi */
+    flex-direction: column; /* Incolonna i paragrafi */
+}
+
+.links p {
+    margin: 5px 0; /* Aggiungi margine tra i paragrafi */
+}
+
+
 
 .menu ul {
     list-style-type: none;
@@ -512,3 +531,95 @@ button[type="submit"]:hover {
 .imgtel #em {
     width: 65px;
 }
+
+/* Stili di base per la pagina FAQ */
+.faq-item .answer {
+    display: none; /* Nascondi le risposte per impostazione predefinita */
+    margin-top: 10px; /* Aggiungi un margine superiore per separare le risposte dalle domande */
+    padding-left: 20px; /* Aggiungi un rientro per evidenziare le risposte */
+}
+
+/* Stile per indicare che la domanda è cliccabile */
+.faq-item .question {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* -------------------------------FAQ------------------------------- */
+
+
+.titles {
+    margin-top: 20vh;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: rgb(209, 213, 134);
+  }
+  
+  .section-center {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .question {
+    background: var(--soft-dark-gray);
+    border-radius: var(--radius);
+    padding: 1rem 2rem 0 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .question-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  
+  .question-text p {
+    margin-bottom: 0;
+    color: var(--extra-light-gray);
+  }
+  .question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: var(--extra-light-gray);
+    transition: var(--transition);
+  }
+  
+  .answer {
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid black;
+  }
+  
+  .answer p {
+    margin-bottom: 0;
+  }
+  /* hide text */
+  .answer {
+    display: none;
+  }
+  .show-text .answer {
+    display: block;
+  }
+  
+  .open {
+    color: var(--optional);
+  }
+  .close {
+    color: var(--red);
+    display: none;
+  }
+  .show-text .close {
+    display: inline;
+  }
+  .show-text .open {
+    display: none;
+  }
+
+  
+
+
+
